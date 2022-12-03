@@ -1,0 +1,13 @@
+Cyber Security Incident Report Card 
+
+Submitter
+Team No: 6
+
+Incident
+Type of Incident: Malware
+
+Containment
+Containment measures were taken to contain the malware. We performed a sweep of the boxes but unfortunately could not find where the breach came from. 
+
+Impacted Services
+The pollen box and dns service was impacted with this incident. The sql service on wax is also being affected.
