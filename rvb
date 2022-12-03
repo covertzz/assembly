@@ -1,0 +1,15 @@
+#!/bin/bash
+
+unalias -a
+
+apt-get update
+
+ufw reset
+ufw default
+
+echo -n "" > passwords.txt 
+for user in $(cat /etc/passwd | grep -P '/bin/.*sh' | cut -f1 -d':'); do
+  lmao=$(tr -dc 'A-Za-z0-9!"#$%&'\''()*+-./:;<=>?@[\]^_`{|}~' </dev/urandom | head -c 13  ;>
+  echo $user,$lmao >> passwords.txt;
+  echo $user:$lmao | sudo chpasswd
+done
