@@ -1,3 +1,6 @@
+# Basic security script written in bash that generates random 
+# passwords for all users and saves them to passwords.txt
+
 #!/bin/bash
 
 unalias -a
