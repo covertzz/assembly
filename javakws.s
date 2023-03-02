@@ -3,6 +3,7 @@
 #	Homework: 4
 #	Due: Nov 10
 #	Course: CS2640.04-1
+#	Last Modified: 11/10/22
 #
 #	Description:
 #		this program checks to see if a given word is a java
